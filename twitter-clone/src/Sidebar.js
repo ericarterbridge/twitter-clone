@@ -1,23 +1,24 @@
-import React from 'react';
-import './Sidebar.css';
+import React from "react";
+import "./Sidebar.css";
+import TwitterIcon from "@mui/icons-material/Twitter";
 
 function Sidebar() {
   return (
     <div className="sidebar">
-        {/* Twitter icon */}
+      {/* Twitter icon */}
+      <TwitterIcon />
 
-        {/* SidebarOption */}
-        {/* SidebarOption */}
-        {/* SidebarOption */}
-        {/* SidebarOption */}
-        {/* SidebarOption */}
-        {/* SidebarOption */}
-        {/* SidebarOption */}
+      {/* SidebarOption */}
+      {/* SidebarOption */}
+      {/* SidebarOption */}
+      {/* SidebarOption */}
+      {/* SidebarOption */}
+      {/* SidebarOption */}
+      {/* SidebarOption */}
 
-        {/* Button -> tweet */}
-
+      {/* Button -> tweet */}
     </div>
-  )
+  );
 }
 
 export default Sidebar;
