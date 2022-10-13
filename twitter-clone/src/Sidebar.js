@@ -6,7 +6,8 @@ function Sidebar() {
   return (
     <div className="sidebar">
       {/* Twitter icon */}
-      <TwitterIcon />
+      {/* <TwitterIcon /> */}
+      <i className="bi bi-twitter"></i>
 
       {/* SidebarOption */}
       {/* SidebarOption */}
